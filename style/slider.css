@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap%27');
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .slider__container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .slider__items {
+    counter-reset: slide;
+  }
+
+  .slider__item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    counter-increment: slide;
+    height: 900px;
+    position: relative;
+  }
+
+  .slider__item::before {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #fff;
+    font-style: italic;
+    font-size: 32px;
+    font-weight: bold;
+    display: block;
+  }
+
+  .slider__item:nth-child(1) {
+    background:url("../images/1.jpg");
+    background-repeat: no-repeat;
+  }
+
+  .slider__item:nth-child(2) {
+    background:url("../images/2.jpg");
+    background-repeat: no-repeat;
+  }
+
+  .slider__item:nth-child(3) {
+    background:url("../images/3.jpg");
+    background-repeat: no-repeat;
+  }
+
+  .slider__item:nth-child(4) {
+    background:url("../images/4.jpg");
+    background-repeat: no-repeat;
+  }
+
+  .slider__item:nth-child(5) {
+    background:url("../images/5.jpg");
+    background-repeat: no-repeat;
+  }
+  .slider_text1{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    bottom: 0.5em;
+    left: 1em;
+    font-size: 8em;
+    font-weight: bold;
+  }
+  .slider_text2{
+    color: chocolate;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 0.5em;
+    left: 1em;
+    font-size: 8em;
+    font-weight: bold;
+  }
+  .slider_text3{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    top: 0.5em;
+    right: 1em;
+    font-size: 8em;
+    font-weight: bold;
+  }
+  .slider_text4{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    font-size: 8em;
+    font-weight: bold;
+  }
+  .slider_text5{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    bottom: 0.5em;
+    left: 1em;
+    font-size: 8em;
+    font-weight: bold;
+  }

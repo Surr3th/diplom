@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+html {
+  color: #be5757;
+  font-family: sans-serif;
+  max-width: 100vw;
+}
+
+body {
+  background-size: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+body .bg {
+  position: fixed;
+  z-index: -2;
+  left: -10px;
+  top: -10px;
+  right: -10px;
+  bottom: -10px;
+  -webkit-filter: blur(15px);
+          filter: blur(15px);
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  background-image: url("../images/fon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body .bg1 {
+  z-index: -1;
+  left: -10px;
+  top: -10px;
+  right: -10px;
+  bottom: -10px;
+  background-color: #313335;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.button_search {
+  width: 5em;
+  text-align: center;
+  border: 1px solid chocolate;
+  background-color: #313335;
+  color: chocolate;
+  padding: 0.6em;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.button_search:hover {
+  background-color: chocolate;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: white;
+}
+
+header {
+  color: white;
+  position: relative;
+  max-width: 1920px;
+  z-index: 10;
+  font-family: "Roboto", sans-serif;
+  background-color: #313335;
+  margin: 0;
+  padding: 0.7em 0;
+  border-bottom: 1px solid chocolate;
+}
+
+header .flexcontainer {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header .flexcontainer .logo_flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+header .flexcontainer .main_flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-right: 1em;
+}
+
+header .flexcontainer .main_flexbox a {
+  background-color: chocolate;
+  border-radius: 3px;
+  margin-right: 1em;
+  text-decoration: none;
+  color: white;
+  padding: 0.5em 1em;
+}
+
+header .flexcontainer .main_flexbox a:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0.6;
+}
+
+header .flexcontainer .main_flexbox div {
+  margin-right: 1em;
+}
+
+header .flexcontainer .login_flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+header .flexcontainer .login_flexbox a {
+  background-color: chocolate;
+  border-radius: 3px;
+  margin-right: 1em;
+  text-decoration: none;
+  color: white;
+  padding: 0.5em 1em;
+}
+
+header .flexcontainer .login_flexbox a:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0.6;
+}
+
+header .flexcontainer .login_flexbox div {
+  margin-right: 1em;
+}
+
+main {
+  color: white;
+  background-size: 100vw;
+  margin: 0;
+  display: block;
+  border: 0;
+  font-size: 100%;
+  border-bottom: 1px solid chocolate;
+}
+
+main .info_company {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  color: white;
+  text-align: justify;
+  padding: 2em 2em;
+  width: 60vw;
+  word-break: break-all;
+  line-height: 1.7em;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+main .table_company {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  color: white;
+  text-align: justify;
+  padding: 2em 2em;
+  width: 60vw;
+  word-break: break-all;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+main .h2_brat {
+  width: 10em;
+}
+
+footer {
+  font-family: "Roboto", sans-serif;
+  background-color: #313335;
+  margin: 0;
+  padding: 3em 2em;
+  bottom: 0em;
+  position: relative;
+  height: 100%;
+  line-height: 2em;
+}
+
+footer .dan {
+  text-decoration: none !important;
+}
+
+footer .dan:hover {
+  text-decoration: underline !important;
+  -webkit-text-decoration-color: #fd6b02 !important;
+          text-decoration-color: #fd6b02 !important;
+}
+
+footer .footer_flexcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .footer_flexcontainer .footer_contacts_flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-right: 7em;
+}
+
+footer .footer_flexcontainer .footer_contacts_flexbox .footer_contacts {
+  font-size: 1.1em;
+  color: #fd6b02;
+}
+
+footer .footer_flexcontainer .footer_contacts_flexbox .footer_telephone {
+  font-size: 1em;
+}
+
+footer .footer_flexcontainer .footer_contacts_flexbox .footer_telephone .footer_number {
+  color: white;
+}
+
+footer .footer_flexcontainer .footer_contacts_flexbox .footer_telephone .footer_telephone_text {
+  font-size: 1em;
+  color: white;
+}
+
+footer .footer_flexcontainer .footer_info_flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-right: 1em;
+}
+
+footer .footer_flexcontainer .footer_info_flexbox .footer_info {
+  font-size: 1.1em;
+  color: #fd6b02;
+}
+
+footer .footer_flexcontainer .footer_info_flexbox .footer_info_company {
+  color: white;
+}
+/*# sourceMappingURL=info.css.map */
